@@ -1,0 +1,143 @@
+#mainNav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #B9DAF2;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+#mainNav li{
+    list-style-type: none;
+}
+#mainNav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+#mainNav a:hover{
+    color: #EFFAFC;
+}
+body{
+    margin-left: 200px;
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background:#9CBDD5;
+    padding: 0.75em;
+    text-align:center;
+    color: #101B53;
+    border: 0.1em solid black;
+}
+#mainImg{
+    width: 100%;
+    height:350px;
+}
+#container{
+    width: 90%;
+    margin: auto;
+    padding:1em;
+    background:rgba(255, 255, 255, 0.568);
+}
+.sect{
+    margin: 1em;
+    padding: 1em;
+    background: #BBE6E4;
+    text-align: initial;
+    box-shadow:5px 5px #9EDBEE;
+    border-radius: 20px;
+}
+.box{
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    grid-gap: 50px;
+    justify-content: flex-start;
+}
+.box3{
+    display: grid;
+    grid-template-columns: 45% 45% ;
+    grid-gap: 50px;
+    justify-content: flex-start;
+}
+h2{
+    text-align: center;
+    background: #55CCE4;
+    box-shadow:5px 5px cornflowerblue;
+}
+#bodyImg{
+    background: url(../images/sea3.webp);
+}
+img{
+    width: 100%;
+    height: 250px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+.image{
+    border-radius: 10em;
+}
+.bcss{
+    padding: 1em;
+    margin: 0em;
+    color: black;
+    font-size: medium;
+    background:#9CBDD5; 
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 95%;
+}
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #101B53;
+    font-size: 15px;
+}
+footer a{
+    text-decoration: none;
+}
+
+.foot{
+width: 95%;
+margin: 0em;
+padding: 1em;
+background:#BBE6E4;
+text-align: initial;
+}
+.list li:nth-of-type(1){
+    color: white;
+    background-color: rgb(107, 109, 228);
+}
+.list li:nth-of-type(2){
+    color: rgb(97, 99, 209);
+    background-color: white;
+}
+.list li:nth-of-type(3){
+    color: white;
+    background-color: rgb(107, 109, 228);
+}
+.list li:nth-of-type(4){
+    color: rgb(97, 99, 209);
+    background-color: white;
+}
+.list li:nth-of-type(5){
+    color: white;
+    background-color: rgb(107, 109, 228);
+}
+.list li:nth-of-type(6){
+    color: rgb(97, 99, 209);
+    background-color: white;
+}
+.head{
+    text-decoration:none;
+}
+

@@ -1,0 +1,264 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    
+.MainNav li{
+        width: fit-content;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    article, section {
+        width: auto;
+    }
+    .Fcontainer{
+        width: auto;
+    }
+    .form{
+        width: auto;
+    }
+    .button{
+        width:auto;
+    }
+    #mainF{
+        padding: 0em;
+    }
+    #mainImg{
+        width:100%;
+        height: 150px;
+    }
+    .sect{
+        margin: auto;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+    
+    .foot{
+        text-align: center;
+    }
+    #box{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+    }
+    #container{
+        width: auto;
+    }
+    .boxImg{
+        height: 200px;
+    }
+   .bodyimg{
+       width: auto;
+   }
+   #table{
+    overflow-x:auto;
+   }
+   .bcss{
+       width:90%;
+   }
+   .infor{
+       width: 75px;
+   }
+   .infor:hover{
+       opacity: 0;
+   }
+   fieldset.border {
+    width:50px;
+}
+input[type=text],[type=email],[type=date],[type=tel],[type=number]{
+    width: 200px;
+}
+#submit{
+    width:100px
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+#box1{
+    display: flex;
+    display: inline;
+    flex-direction: row;
+}
+.sect{
+   width: fit-content;
+}
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px){
+     
+.MainNav li{
+    width: fit-content;
+}
+.box{
+    display: grid;
+    grid-template-columns: 45% 45% ;
+}
+article, section {
+    width: auto;
+}
+.Fcontainer{
+    width: auto;
+}
+.form{
+    width: auto;
+}
+.button{
+    width:auto;
+}
+#mainF{
+    padding: 0em;
+}
+#mainImg{
+    width:100%;
+    height: 200px;
+}
+.sect{
+    margin: auto;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+#box{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+#container{
+    width: auto;
+}
+.boxImg{
+    height: 250px;
+}
+.bodyimg{
+   width: auto;
+}
+#table{
+overflow-x:auto;
+}
+.bcss{
+   width:auto;
+}
+.infor{
+   width: 100px;
+}
+.infor:hover{
+   opacity: 0;
+}
+fieldset.border {
+width:50px;
+}
+input[type=text],[type=email],[type=date],[type=tel],[type=number]{
+width: 200px;
+}
+#submit{
+width:100px
+}
+img{
+width: 175px;
+height: 200px;
+}
+#box1{
+display: flex;
+display: inline;
+flex-direction: row;
+}
+.sect{
+width: fit-content;
+}
+footer{
+    width: 100%;
+}
+#foot1{
+    width:auto;
+}
+}
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px){
+     
+    .MainNav li{
+        width: fit-content;
+    }
+
+    article, section {
+        width: auto;
+    }
+    .Fcontainer{
+        width: auto;
+        height: auto;
+    }
+    .form{
+        width: auto;
+    }
+    .button{
+        width:auto;
+    }
+    #mainF{
+        padding: 0em;
+    }
+    #mainImg{
+        width:100%;
+        height: 300px;
+    }
+    .sect{
+        margin: auto;
+        margin-bottom: 1em;
+        width: 100%;
+        height: 100%;
+    }
+    #box{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+    }
+    #container{
+        width: 100%;
+        margin: auto;
+        padding:1em;
+        background:rgba(255, 255, 255, 0.568);
+    }
+    .boxImg{
+        height: 250px;
+    }
+    .bodyimg{
+       width: auto;
+    }
+    #table{
+    overflow-x:auto;
+    }
+    .bcss{
+       width:95%;
+    }
+    .infor{
+       width: 100px;
+    }
+    .infor:hover{
+       opacity: 0;
+    }
+    fieldset.border {
+    width:50px;
+    }
+    input[type=text],[type=email],[type=date],[type=tel],[type=number]{
+    width: 200px;
+    }
+    #submit{
+    width:100px
+    }
+    img{
+    width: 175px;
+    height: 200px;
+    }
+    #box1{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 50px;
+    }
+    footer{
+        width: 105%;
+    }
+}  

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a travel site">
+        <title> See Our Packages </title>
+        <link rel="stylesheet" href="styles/normalize.css">
+       <link rel="stylesheet" href="styles/css2.css">
+       <link rel="stylesheet" href="styles/media2.css">
+       <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+       <link rel="manifest" href="images/site.webmanifest">
+       <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+       <meta name="msapplication-TileColor" content="#da532c">
+       <meta name="theme-color" content="#ffffff">
+    </head> 
+    <body id="bodyImg">    
+        <div id="container">
+            <header><h1><a href="landing.html" class="head">See our Packages</a></h1></header>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="homepage.html"> Home </a></li>
+                    <li><a href="attractions.html"> Attractions </a></li>
+                    <li><a href="accomodation.html"> Accommodation </a></li>
+                    <li><a href="transport.html"> Transport </a></li>
+                    <li><a href="contact.html"> Contact Us </a></li>
+                </ul>
+                
+            </nav>
+            <img id="mainImg" src="images/peacock.webp" alt="image head">
+            <div class="box3">
+            <section class="sect">
+                <h2>Safari Packages</h2>
+                <p>
+                    Our Safari Packages includes all the animal related activities that can be done in Sri Lanka.
+                    This includes:
+                </p>
+                    <ul class="list">
+                        <li>Safari in the national parks</li>
+                        <li>Ridiyagama Safari - which is a zoo made into a park for the animals freedom</li>
+                        <li>Dehiwala and Pinnawala Zoo</li>
+                        <li>Elephant orphanages in Pinnawala and Udawalawe</li>
+                        <li> Turtle Sanctuary</li>
+                    </ul>
+                
+                <img class="image" src="images/leopard.jpg" alt="Leopard in safari">
+            </section>
+
+            <section class="sect">
+                <h2>Beach Packages</h2>
+                <p>
+                    Our Beach Packages includes all the Water based activities that can be done in Sri Lanka.
+                    This includes:
+                </p>
+                    <ul class="list">
+                        <li>Visit to the Coastal Areas </li>
+                        <li>Surfing in Arugambay </li>
+                        <li>Whale watching </li>
+                        <li>Sea diving in Pigeon Island </li>
+                        <li> Snorkelling</li>
+                        <li> Coral Reefs</li>
+                    </ul>
+                    <img class="image" src="images/beach.jpg" alt="sea diving">
+                
+            </section>
+
+            <section class="sect">
+                <h2>Leisure Packages</h2>
+                <p>
+                    Our Leisure Packages includes all the fun activities that can be done in Sri Lanka.
+                    This includes:
+                </p>
+                    <ul class="list">
+                        <li>Ziplining </li>
+                        <li>Helicopter rides </li>
+                        <li> Hot air baloon rides</li>
+                        <li>Horse riding</li>
+                        <li>White Water Rafting in kithulgala</li>
+                    </ul>
+                    <img class="image" src="images/leisure.jpg" alt="White water raft">
+                
+            </section>
+
+            <section class="sect">
+                <h2>Exploring Packages</h2>
+                <p>
+                    Our Exploring Packages includes all the exploring activities that can be done in Sri Lanka.
+                    This includes:
+                </p>
+                    <ul class="list">
+                        <li>Visit Galle fort </li>
+                        <li>Visit Ambulluwawa Temple </li>
+                        <li>Visit Sigiriya </li>
+                        <li>Horton Plains </li>
+                    </ul>
+                    <img class="image" src="images/explore.jpg" alt="Ambulluwawa temple">
+                
+            </section>
+        </div>
+            <a href="accomodation.html" class="bcss"><strong>Back to Accommodation</strong></a>
+            
+        </div>
+        <footer>
+            <section class="foot">
+                <h5>&copy;Wild Asia Travels <br>
+                Ovinya Samarawickrema <br>
+                0777877369<br>
+                Pictures & information taken from Google.</h5>
+                </section>
+                <section class="foot"><h5>Company <br>
+                    <a href="homepage.html"> About us</a><br>
+                    <a href="contact.html"> Contact us</a> <br>
+                </h5></section>
+                    <section class="foot"><h5>What we offer <br>
+                    <a href="attractions.html"> Destinations</a> <br>
+                    <a href="accomodation.html"> Hotel Packages</a> <br>
+                    <a href="transport.html"> Transport services</a> <br>
+                    </h5>
+                </section>
+        </footer>
+         <!--Service Worker-->
+    <script>
+        if("ServiceWorker" in navigator){
+            window.addEventListener("load",function(){
+                navigator.serviceWorker.register("ServiceWorker.js").then(
+                    function(registeration){
+                        console.log("Service Worker registration Successfull",registeration);
+                    },
+                    function(err){
+                        console.log("Service Worker registration Failed",err);
+                    });
+            });
+        }
+    </script>
+    </body>
+</html>

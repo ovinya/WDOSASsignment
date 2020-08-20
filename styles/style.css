@@ -1,0 +1,227 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+     background:#9CBDD5;
+     padding: 0.75em;
+    text-align:center;
+    color: #101B53;
+    border: 0.1em solid black;
+}
+.head{
+    text-decoration:none;
+}
+.MainNav{
+    position: sticky;
+    top: 0;
+    line-height: 50px;
+}
+.MainNav ul{
+    list-style-type: none;
+    display:flex;
+    padding: 0;
+    margin: 0;
+    flex-flow: row wrap;
+    background-color:#B9DAF2 ;
+}
+.MainNav li{
+    flex-grow:1;
+    width: 15%;
+    border: 0.1em rgb(17, 17, 17) solid;
+    text-align: center;
+}
+.MainNav a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.MainNav a:hover {
+    background:#EFFAFC;
+}
+
+#mainImg{
+    width: 100%;
+    height:350px;
+}
+#bodyimg{
+    background: url(../images/sea3.webp);
+}
+#container{
+    width: 90%;
+    margin: auto;
+    padding:1em;
+    background:rgba(255, 255, 255, 0.568);
+}
+article{
+    width: 95%;
+    margin: 0em;
+    padding: 1em;
+    background: #BBE6E4;
+    text-align: initial;
+}
+section{
+    width: 95%;
+    margin: 0em;
+    padding: 1em;
+    background: #BBE6E4;
+    text-align: initial;
+}
+h2{
+    background: #55CCE4;
+    box-shadow:5px 5px cornflowerblue;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap:25px ;
+    justify-content: space-between;
+}
+
+.boxSection{
+    background: #B9F3F9;
+    box-shadow:5px 5px #9EDBEE;
+    border-radius: 20px;
+    width: 90%;
+}
+section .boxSection{
+    background: #B9F3F9;
+    box-shadow:5px 5px #9EDBEE;
+    border-radius: 20px;
+}
+
+.overflow{
+    background: #B9F3F9;
+    box-shadow:5px 5px #9EDBEE;
+    border-radius: 20px;
+    height: 500px;
+    overflow: scroll;
+    width: 90%;
+    
+}
+.boxSection{
+    background: #B9F3F9;
+    box-shadow:5px 5px #9EDBEE;
+    border-radius: 20px;
+    width: 90%;
+}
+
+img{
+    width: 75%;
+    height: 250px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: #101B53;
+    font-size: 15px;
+}
+footer a{
+    text-decoration: none;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+table,th, td {
+    border:#27c3d4 solid;
+   text-align: center;
+}
+
+thead{
+    background: #DCF1F2;
+}
+tbody{
+    background:#C6D9DA;
+}
+tfoot{
+    background: #B8DBD9;
+}
+
+#landing{
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    width: 40%;
+    margin: auto;
+    padding: 1em;
+    
+    text-align: initial;
+}
+
+.boxForm{
+    width: 90%;
+    margin: 0em;
+    padding: 1em;
+    background: #B9F3F9; 
+    text-align: center;
+}
+
+.Fcontainer{
+    width: 100%;
+    margin: auto;
+    padding:0em;
+    background:rgba(112, 198, 219, 0.568);
+    text-align: center;
+}
+#submit{
+    width:25%;
+    padding: 0.5em;
+    border-radius: 2em;
+}
+.bcss{
+    padding: 1em;
+    margin: 0em;
+    color: black;
+    font-size: medium;
+    background: #9CBDD5;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 97%;
+}
+
+.button{
+    padding: 1em;
+    margin: 1em;
+    width:90%;
+    border-radius: 20px;
+    background: #DCF1F2;
+    font-size: medium;
+    color: black;
+}
+
+fieldset.border {
+    width:100px;
+}
+input[type=text],[type=email],[type=date],[type=tel],[type=number]{
+    width: 250px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+input[type=checkbox]{
+    justify-content: flex-start;
+}
+select{
+    width: 200px;
+}
+.infor{
+    height: auto;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: #B9DAF2;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+

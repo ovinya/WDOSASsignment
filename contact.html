@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a travel site">
+        <title> Wild Asia-Contact Us </title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/media.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/site.webmanifest">
+        <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body id="bodyimg">    
+        <div id="container">
+            <header><h1><a href="landing.html" class="head">Contact Us</a></h1></header>
+            <nav class="MainNav">
+                <ul>
+                    <li><a href="homepage.html"> Home </a></li>
+                    <li><a href="attractions.html"> Attractions </a></li>
+                    <li><a href="accomodation.html"> Accommodation </a></li>
+                    <li><a href="transport.html"> Transport </a></li>
+                    <li><a href="contact.html"> Contact Us </a></li>
+                </ul>
+            </nav>
+            <img id="mainImg" src="images/calling.jpg" alt="image head">
+
+            <article class="Fcontainer">
+                <h2>Contact Us</h2>
+                <div class="form">
+                    <form method="GET" name="myForm">
+
+                        <div class="boxForm">
+                        <fieldset id="mainF" >
+                            <legend> <h3>Personal Information</h3></legend>
+                            <label for="name"> Name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Please write your Full Name here"> <br><br>
+                            <label for="email"> Email:</label><br>
+                            <input type="email" id="email" name="email" required placeholder="xxxxx@xxxx.com"> <br><br>
+                            <label for="mobile"> Mobile:</label><br>
+                            <input type="tel" id="mobile" name="mobile" maxlength="12" required placeholder="Enter Your contact Number Here"> <br><br>
+                            <label for="country"> Country:</label><br>
+                            <input type="text" id="country" name="country" placeholder="Please Enter your country"> <br><br>
+                        </fieldset>
+                    </div>
+
+                        <fieldset class="boxForm">
+                            <legend><h3>Tour Details</h3></legend>
+                            <datalist id="destinationDL">
+                                <option> Kandy</option>
+                                <option> Sigiriya</option>
+                                <option> Ella</option>
+                                <option> Nuwara Eliya</option>
+                                <option> Mirissa</option>
+                                <option> Galle</option>
+                            </datalist>
+                            <label for="destination"> Destination:</label><br>
+                            <input type="text" list="destinationDL" id="destination" name="destination" required placeholder="Select Preffered Destination"> <br><br>
+                            <label for="aDate"> Arrival Date:</label><br>
+                            <input type="date" id="aDate" name="aDate" > <br><br>
+                            <label for="dDate"> Departure Date:</label><br>
+                            <input type="date" id="dDate" name="dDate"> <br><br>
+                            <fieldset> 
+                                <legend> <h3> Number Of Travellers</h3></legend>
+                                <label for="adults"> Adults:</label><br>
+                            <input type="number" id="adults" name="adults" placeholder="Number Of Adults" min="0"> <br><br>
+                            <label for="children"> Children:</label><br>
+                            <input type="number" id="children" name="children" placeholder="Number Of Children" min="0"> <br><br>
+                            </fieldset>
+                            
+                        </fieldset>
+    
+                        <fieldset class="boxForm">
+                            
+                            <h6><input type="radio" id="contactEmail" name="contact" value="Contact Email"> 
+                                <label for="contactEmail">Contact me through Email only</label><br>
+                               
+                            <input type="radio" id="contactPhone" name="contact" value="Contact Phone"> 
+                            <label for="contactPhone">Contact me through Phone only</label><br>
+                            
+                            <input type="radio" id="contactBoth" name="contact" value="Contact Both"> 
+                            <label for="contactBoth">Contact me via both Email and Phone </label><br></h6>
+                            <input id="submit" type="submit" value="Submit">
+                        </fieldset>
+                </form>
+            </div>
+        </article>
+    </div>
+    <footer>
+        <section>
+        <h5>&copy;Wild Asia Travels <br>
+        Ovinya Samarawickrema <br>
+        0777877369<br>
+        Pictures & information taken from Google.</h5>
+        </section>
+        <section><h5>Company <br>
+            <a href="homepage.html"> About us</a><br>
+            <a href="contact.html"> Contact us</a> <br>
+        </h5></section>
+            <section><h5>What we offer <br>
+            <a href="attractions.html"> Destinations</a> <br>
+            <a href="accomodation.html"> Hotel Packages</a> <br>
+            <a href="transport.html"> Transport services</a> <br>
+            </h5>
+        </section>
+    </footer>
+    <script src="script/contact.js"></script>
+     <!--Service Worker-->
+     <script>
+        if("ServiceWorker" in navigator){
+            window.addEventListener("load",function(){
+                navigator.serviceWorker.register("ServiceWorker.js").then(
+                    function(registeration){
+                        console.log("Service Worker registration Successfull",registeration);
+                    },
+                    function(err){
+                        console.log("Service Worker registration Failed",err);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
